@@ -1,0 +1,6 @@
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+*.csv
+!R/output/simulation_runs.csv
