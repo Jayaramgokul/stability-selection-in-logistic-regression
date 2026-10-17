@@ -17,7 +17,7 @@ Ireland study.
 
 📄 **[Read the thesis](thesis/Stability_Selection_in_Logistic_Regression_Gokulan_2020.pdf)** ·
 [viva slides](thesis/Presentation_Viva_May_2020.pdf) ·
-[original R code](code/original/) · [erratum (2026)](#erratum-2026)
+[original R code](code/original/) · [erratum](#erratum)
 
 ## The reasoning, section by section
 
@@ -54,9 +54,9 @@ it, how it was implemented, and a short R example on simulated data.
 
 ![Number of true predictors selected when noise predictors are added (thesis Fig 4.2)](figures/thesis/fig4_2_true_with_noise_predictors.png)
 
-## Erratum (2026)
+## Erratum
 
-Re-reading the thesis code in 2026, I found an error that affects one
+Re-reading the thesis code, I found an error that affects one
 scenario.
 
 **What.** In the scenario-1 lasso loop (true predictors only), line 157 of
@@ -101,7 +101,7 @@ The thesis and its code are published unchanged, as submitted.
 ```
 thesis/          the thesis as submitted (signature removed) and the viva slides
 code/original/   the R code written for the thesis, unchanged
-code/erratum/    the 2026 check described above (needs the original data)
+code/erratum/    the check described above (needs the original data)
 docs/            one methodology document per thesis section
 R/               short explanatory examples on simulated data, one per document
 figures/thesis/  result figures taken from the thesis

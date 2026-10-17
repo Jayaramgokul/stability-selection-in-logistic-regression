@@ -1,4 +1,4 @@
-# Erratum check (2026): the scenario-1 lasso loop in the thesis code.
+# Erratum check: the scenario-1 lasso loop in the thesis code.
 #
 # In code/original/thesis_simulation_study_2020.R, line 157 sets
 #     Lasso_Coeff_rd = c()

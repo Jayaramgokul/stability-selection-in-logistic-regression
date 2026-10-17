@@ -53,10 +53,10 @@ non-zero columns back to predictor names: a predictor counted as selected if
 any of its levels kept a non-zero coefficient. The examples here use the same
 rule.
 
-## Erratum (2026)
+## Erratum
 
 In the thesis code's scenario-1 lasso loop (true predictors only), the list
 of selected predictors was reset once, before the loop, instead of in each
 run. Predictors selected in earlier runs were counted again in later ones.
 This affects the lasso panel of Fig 4.1 and the related statements. See the
-[README](../README.md#erratum-2026) for details and the corrected counts.
+[README](../README.md#erratum) for details and the corrected counts.

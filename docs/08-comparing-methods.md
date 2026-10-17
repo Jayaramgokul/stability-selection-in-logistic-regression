@@ -52,7 +52,7 @@ analyses:
 In the example run, the Kruskal–Wallis test finds differences between methods
 in all three scenarios (p < 10⁻⁸).
 
-## Erratum (2026)
+## Erratum
 
 Fig 4.1's lasso panel, and the scenario-1 statements about the lasso in
 sections 4.2, 4.3(a) and 5.1, come from a loop whose list of selected
@@ -60,4 +60,4 @@ predictors was not reset between runs. Corrected, the lasso at `lambda.1se`
 selects few or no predictors at n = 500. Stability selection therefore did
 improve on the lasso in scenario 1. This resolves the "counterintuitive"
 result the thesis flagged for future work in section 5.2. Details are in the
-[README](../README.md#erratum-2026).
+[README](../README.md#erratum).
