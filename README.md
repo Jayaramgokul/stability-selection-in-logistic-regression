@@ -16,6 +16,7 @@ Monte Carlo study built on a logistic regression model from the Growing Up in
 Ireland study.
 
 📄 **[Read the thesis](thesis/Stability_Selection_in_Logistic_Regression_Gokulan_2020.pdf)** ·
+[interim slides, Dec 2019](thesis/Interim_Presentation_Dec_2019.pdf) ·
 [viva slides](thesis/Presentation_Viva_May_2020.pdf) ·
 [original R code](code/original/) · [erratum](#erratum)
 
@@ -100,7 +101,8 @@ The thesis and its code are published unchanged, as submitted.
 ## What is in this repository
 
 ```
-thesis/          the thesis as submitted (signature removed) and the viva slides
+thesis/          the thesis as submitted (signature removed), the interim slides (Dec 2019,
+                 two third-party pictures removed) and the viva slides
 code/original/   the R code written for the thesis, unchanged
 code/erratum/    the check described above (needs the original data)
 docs/            one methodology document per thesis section
