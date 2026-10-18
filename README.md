@@ -58,8 +58,7 @@ it, how it was implemented, and a short R example on simulated data.
 
 ## Erratum
 
-Re-reading the thesis code, I found an error that affects one
-scenario.
+The thesis code contains an error that affects one scenario.
 
 **What.** In the scenario-1 lasso loop (true predictors only), line 157 of
 [`thesis_simulation_study_2020.R`](code/original/thesis_simulation_study_2020.R)
