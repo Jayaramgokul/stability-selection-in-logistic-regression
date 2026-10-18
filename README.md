@@ -34,6 +34,7 @@ it, how it was implemented, and a short R example on simulated data.
 | 6 | 3 | [The simulation study: scenarios, noise, sample sizes, pseudo-code](docs/06-simulation-design.md) | [R](R/06_simulation_study.R) |
 | 7 | App. A | [The preliminary Monte Carlo experiment](docs/07-monte-carlo-experiment.md) | [R](R/07_monte_carlo_experiment.R) |
 | 8 | 4 | [Comparing the methods: selection models, Kruskal–Wallis, Wilcoxon](docs/08-comparing-methods.md) | [R](R/08_comparing_methods.R) |
+| 9 | 5 | [Looking back: what the thesis left open, and what I would test now](docs/09-looking-back.md) | |
 
 ## What the thesis found
 
